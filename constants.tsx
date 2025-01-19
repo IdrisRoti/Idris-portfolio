@@ -70,7 +70,7 @@ export const selectedWorksArr = [
         date: "Aug 2024",
         images: ["/hifashion/image1.png", "/hifashion/image2.png", "/hifashion/image3.png", "/hifashion/image4.png", "/hifashion/image5.png", "/hifashion/image6.png", "/hifashion/image7.png", "/hifashion/image8.png"],
         features: ["User Authentication and Authorization", "Admin Dashboard", "Product Management (Add, Edit, Schedule, Delete)", "Shopping Cart (Add, Update, Remove)", "Checkout Process","Product rating and comment"],
-        technologies: ["ReactJs", "NextJs", "Supabase", "Typescript", "Tailwind CSS", "Uploadthing", "ShadCn", "Framer motion."],
+        technologies: ["ReactJs", "NextJs", "Supabase", "Typescript", "Tailwind CSS", "Uploadthing", "ShadCn", "Framer motion.", "Recharts", "Stripe", "Zod"],
         github: "https://github.com/IdrisRoti/hifashion",
         liveurl: "https://hifashion.vercel.app/"
     },
@@ -81,7 +81,7 @@ export const selectedWorksArr = [
         date: "Nov 2024",
         images: ["/hommez/image1.png", "/hommez/image2.png", "/hommez/image3.png", "/hommez/image4.png", "/hommez/image5.png", "/hommez/image6.png", "/hommez/image7.png", "/hommez/image8.png", "/hommez/image9.png", "/hommez/image10.png"],
         features: ["Authentication screens", "Advance filtering system", "Contact form", "New List upload form", "List image box"],
-        technologies: ["ReactJs", "NextJs", "Typescript", "Tailwind CSS", "cloudinary", "Framer motion", "Zustand"],
+        technologies: ["ReactJs", "NextJs", "Typescript", "Tailwind CSS", "cloudinary", "Framer motion", "React-hook-form", "Zod"],
         github: "https://github.com/IdrisRoti/hommez",
         liveurl: "https://hommez.vercel.app/"
     },
