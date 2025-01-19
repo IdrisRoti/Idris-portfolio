@@ -3,7 +3,7 @@ import Header from "./Header"
 import Hero from "./Hero"
 import SelectedWorks from "./SelectedWorks"
 import Services from "./Services"
-import Testimonials from "./Testimonials"
+import Technologies from "./Technologies"
 
 const Portfolio = () => {
   return (
@@ -19,7 +19,7 @@ const Portfolio = () => {
             <SelectedWorks />
         </section>
         <section className="relative" id="availabilty">
-            <Testimonials />
+            <Technologies />
             <Contact />
         </section>
     </div>

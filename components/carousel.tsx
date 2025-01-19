@@ -104,7 +104,7 @@ const ImageCarousel = ({images, name}:{images: string[], name: string}) => {
             <CgChevronRight />
         </button> 
             {/* ********** CAROUSEL PAGINATION ************* */}
-        <div className='flex gap-6 h-1 px-4'>
+        <div className='flex gap-3 h-1 px-4'>
             {images.map((url, i)=>(
                 <div className='w-full h-full' key={url}>
                     <button        

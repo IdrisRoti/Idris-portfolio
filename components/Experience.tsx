@@ -1,5 +1,6 @@
 import Button from "./Button"
 import { experience } from "../constants"
+import Link from "next/link"
 
 const Experience = () => {
   return (
@@ -11,8 +12,12 @@ const Experience = () => {
             <h2 className="text-2xl md:text-3xl tracking-wider font-semibold uppercase">Experienced with a variety of projects.</h2>
             <p className="mt-3 w-full md:w-2/3 lg:w-full max-lg:mx-auto">Proven track record of working on a wide range of projects, from responsive websites to complex web applications, showcasing versatility and adaptability in frontend development.</p>
             <div className="flex items-center justify-center lg:justify-start gap-4 mt-8">
-                <Button>Contact Me</Button>
-                <Button variant="outlined">See my work</Button>
+                <Link href="#availabilty">
+                    <Button>Contact Me</Button>
+                </Link>
+                <Link href="#portfolio">
+                    <Button variant="outlined">See my work</Button>
+                </Link>
             </div>
         </div>
         <div className="w-full -order-1 lg:order-1">

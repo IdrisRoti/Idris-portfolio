@@ -1,7 +1,12 @@
 import { BsFlower2 } from "react-icons/bs";
-import { RiCopperDiamondFill } from "react-icons/ri";
+import { RiCopperDiamondFill, RiNextjsFill, RiSupabaseFill } from "react-icons/ri";
 import { PiDiamondsFourFill } from "react-icons/pi";
 import { MdSportsBaseball } from "react-icons/md";
+import { SiGmail, SiMongodb, SiPrisma, SiShadcnui, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { FaLinkedinIn, FaReact, FaWhatsapp } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { DiJavascript } from "react-icons/di";
+import { TbBrandFramerMotion } from "react-icons/tb";
 
 export const navlinks = [
     {
@@ -76,7 +81,7 @@ export const selectedWorksArr = [
         date: "Nov 2024",
         images: ["/hommez/image1.png", "/hommez/image2.png", "/hommez/image3.png", "/hommez/image4.png", "/hommez/image5.png", "/hommez/image6.png", "/hommez/image7.png", "/hommez/image8.png", "/hommez/image9.png", "/hommez/image10.png"],
         features: ["Authentication screens", "Advance filtering system", "Contact form", "New List upload form", "List image box"],
-        technologies: ["ReactJs", "NextJs", "Typescript", "Tailwind CSS", "cloudinary", "Framer motion."],
+        technologies: ["ReactJs", "NextJs", "Typescript", "Tailwind CSS", "cloudinary", "Framer motion", "Zustand"],
         github: "https://github.com/IdrisRoti/hommez",
         liveurl: "https://hommez.vercel.app/"
     },
@@ -166,5 +171,85 @@ export const testimonialsArr = [
         org: "Unitect Inc.",
         image: "/portfolio/photo8.png",
         testimony: "Thanks to her designs, we received overwhelmingly positive feedback from our users and stakeholders alike."
+    },
+]
+
+export const contactLinks = [
+    {
+        id: 1,
+        name: "email",
+        icon: SiGmail,
+        link: "mailto:idrisomisakin@gmail.com?subject=Hello&body=I%20am%20interested%20in%20your%20services."
+    },
+    {
+        id: 2,
+        name: "whatsapp",
+        icon: FaWhatsapp,
+        link: "https://wa.me/2348108835144?text=Hello%20there!%20I%20would%20like%20to%20know%20more%20about%20your%20services."
+    },
+    {
+        id: 3,
+        name: "X",
+        icon: FaXTwitter,
+        link: "https://x.com/IdrisRoti"
+    },
+    {
+        id: 4,
+        name: "Linkedin",
+        icon: FaLinkedinIn,
+        link: "https://www.linkedin.com/in/idris-rotimi-6237b7324"
+    },
+]
+
+export const technologies = [
+    {
+        id: 1,
+        name: "Javascript",
+        icon: DiJavascript,
+    },
+    {
+        id: 2,
+        name: "Typescript",
+        icon: SiTypescript,
+    },
+    {
+        id: 3,
+        name: "ReactJs",
+        icon: FaReact,
+    },
+    {
+        id: 4,
+        name: "NextJs",
+        icon: RiNextjsFill,
+    },
+    {
+        id: 5,
+        name: "Tailwind CSS",
+        icon: SiTailwindcss,
+    },
+    {
+        id: 6,
+        name: "Framer motion",
+        icon: TbBrandFramerMotion,
+    },
+    {
+        id: 7,
+        name: "Supabase",
+        icon: RiSupabaseFill,
+    },
+    {
+        id: 8,
+        name: "MongoDb",
+        icon: SiMongodb,
+    },
+    {
+        id: 9,
+        name: "Prisma ORM",
+        icon: SiPrisma,
+    },
+    {
+        id: 10,
+        name: "ShadCn UI",
+        icon: SiShadcnui,
     },
 ]
