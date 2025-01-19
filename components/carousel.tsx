@@ -76,7 +76,7 @@ const ImageCarousel = ({images, name}:{images: string[], name: string}) => {
                 }}
                 onDragStart={onDragStart}
                 onDragEnd={onDragEnd}
-                className='flex items-center h-[15rem] w-full cursor-grab active:cursor-grabbing'> 
+                className='flex items-center h-[10rem] md:h-[15rem] w-full cursor-grab active:cursor-grabbing'> 
                     {
                         images.map((url)=>(
                             <div className='h-full w-full shrink-0 scale-[98%]' key={url}>

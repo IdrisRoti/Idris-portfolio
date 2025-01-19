@@ -92,7 +92,7 @@ export const selectedWorksArr = [
         date: "Feb 2024",
         images: ["/fortura/image1.png", "/fortura/image2.png", "/fortura/image3.png", "/fortura/image4.png"],
         features: ["Google Authentication", "create post", "Rich text editor", "Comment section"],
-        technologies: ["ReactJs", "NextJs", "Typescript", "Tailwind CSS", "cloudinary", "prisma", "next-auth"],
+        technologies: ["ReactJs", "NextJs", "Typescript", "Tailwind CSS", "cloudinary", "prisma", "next-auth","MongoDb"],
         github: "https://github.com/IdrisRoti/fortura",
         liveurl: "https://fortura.vercel.app/"
     },
